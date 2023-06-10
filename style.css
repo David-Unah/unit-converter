@@ -36,14 +36,33 @@ body {
     letter-spacing: -0.05em;
 }
 
-.upper--box h1 {
+/* .upper--box h1 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 98px;
     line-height: 24px;
     margin-top: 80px;
+} */
+
+input {
+    width: 40%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 98px;
+    margin-top: 20px;
+    cursor: pointer;
 }
+
+input:focus {
+    border: none;
+}
+
+
 
 .lower--box {
     display: flex;
